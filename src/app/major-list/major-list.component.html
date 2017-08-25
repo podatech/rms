@@ -1,0 +1,12 @@
+<h1>
+  {{ title }} of Information System!
+</h1>
+
+<div>
+	<ul>
+		<li *ngFor='let item of majorList'>
+			<a href="majors/{{ item.slug }}">{{ item.name }}</a>
+		</li>
+	</ul>
+	
+</div>
